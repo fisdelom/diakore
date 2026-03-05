@@ -1,0 +1,13 @@
+{
+  "name": "diakore-website",
+  "version": "1.0.0",
+  "description": "Diakore Corporate Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Static site, no build needed'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.0"
+  }
+}
