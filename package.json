@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "echo 'Static site, no build needed'",
+    "dev": "netlify dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "nodemailer": "^6.9.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^24.0.1"
   }
 }
