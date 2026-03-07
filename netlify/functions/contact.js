@@ -59,7 +59,7 @@ exports.handler = async (event, context) => {
         await transporter.sendMail({
             from: `"${name}" <${process.env.SMTP_USER}>`, // From authenticated sender
             replyTo: email, // Reply to the visitor
-            to: process.env.CONTACT_EMAIL || 'contact@diakore.ai',
+            to: process.env.CONTACT_EMAIL || 'contact@diakore.com',
             subject: `New Website Inquiry: ${name}`,
             text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
             html: `
